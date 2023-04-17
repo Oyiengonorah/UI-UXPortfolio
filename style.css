@@ -83,8 +83,11 @@ html {
     background-color: #e99491;
     color: black;
   }
+  .active {
+    color: black;
+    text-decoration: underline;
+  }
   h2.underline:hover {
-    background-color: #e99491;
     color: black;
     text-decoration: underline;
   }

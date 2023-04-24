@@ -2,9 +2,6 @@ html {
     height: 100%;
     width: 100%;
   }
-  body{
-    padding: 25px;
-  }
   .header{
     background-color: peachpuff;
   }
@@ -73,6 +70,13 @@ html {
     margin: 10px;
     flex: 50%;
   }
+  img {
+    cursor: pointer;
+  }
+  .card:hover {
+    border: 3px solid whitesmoke;
+  }
   .container {
     padding: 2px 16px;
   }
+  

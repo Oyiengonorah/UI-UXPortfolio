@@ -35,7 +35,7 @@ html {
     text-transform: uppercase;
     color: #292828;
     font-weight: 300;
-    padding: 10px;
+    padding-left: 40px;
   }
   h3{
     font-size: 1.3em;
@@ -46,19 +46,41 @@ html {
     padding-left: 10px;
     padding-top: 20px;
   }
+  h4{
+    font-size: 1.25em;
+    font-family: Tahoma, sans-serif;
+    color: #DC362E;
+    font-weight: 300;
+    padding-left: 10px;
+  }
   p{
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Poppins';
     font-weight: 200;
     line-height: 1.5em;
     padding-left: 10px;
     padding-top: 0px;
   }
-  img{
-    width: 650px;
+  ul{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+  }
+  li{
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .thumbnail{
+    width: 750px;
     height: 450px;
     display: block;
     margin: auto;
+    object-fit: cover;
+  }
+  .logo{
+    width: 450px;
+    height: 450px;
     object-fit: cover;
   }
   .flex-container {
@@ -78,13 +100,17 @@ html {
       flex-direction: column;
     }
   }
-  #heading{
-    padding-left: 40px;
-  }
   .content{
     justify-content: center;
     width: 75%;
     margin: auto;
   }
+  .main-content{
+    width: 40%;
+  }
+  .side-content{
+    display: inline;
+  }
+
 
   

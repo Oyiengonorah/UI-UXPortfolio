@@ -72,16 +72,20 @@ html {
     padding-bottom: 20px;
   }
   .thumbnail{
-    width: 750px;
+    width: 450px;
     height: 450px;
     display: block;
     margin: auto;
     object-fit: cover;
   }
-  .logo{
-    width: 450px;
-    height: 450px;
+  .ourKids{
+    width: 250px;
+    height: 250px;
     object-fit: cover;
+    padding: 10px;
+  }
+  #ourKidsRight{
+    justify-self: right;
   }
   .flex-container {
     display: flex;
@@ -89,21 +93,45 @@ html {
     justify-content: center;
     align-items: center;
     background-color: #f1cbca;
-    height: 500px;
   }
   .column {
     background-color: #f1cbca;
     flex: 50%;
+  
   }
   @media screen and (max-width: 600px) {
     .flex-container {
       flex-direction: column;
     }
   }
+  .row1{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #f1cbca;
+  }
+  .row2{
+    display: flex;
+    flex-direction: row;
+    background-color: #f1cbca;
+    margin: 0px;
+  }
+  .queue{
+    flex: 30%;
+    background-color: #f1cbca;
+  }
+  @media screen and (max-width: 600px) {
+    .row2 {
+      flex-direction: column;
+    }
+  }
+  .container{
+    background-color: #f1cbca;
+  }
   .content{
-    justify-content: center;
     width: 75%;
     margin: auto;
+    
   }
   .main-content{
     width: 40%;

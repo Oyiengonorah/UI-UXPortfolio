@@ -45,6 +45,7 @@ html {
     font-weight: 300;
     padding-left: 10px;
     padding-top: 20px;
+    padding-bottom: 0px;
   }
   h4{
     font-size: 1.25em;
@@ -52,6 +53,7 @@ html {
     color: #DC362E;
     font-weight: 300;
     padding-left: 10px;
+    padding-top: 0px;
   }
   p{
     font-size: 1.2em;
@@ -70,6 +72,8 @@ html {
   li{
     padding-top: 0px;
     padding-bottom: 20px;
+    font-family: 'Poppins';
+    font-size: 1em;
   }
   .thumbnail{
     width: 450px;
@@ -82,10 +86,16 @@ html {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    padding: 10px;
+    display: block;
+    margin: auto;
   }
   #ourKidsRight{
     justify-self: right;
+    align-self: right;
+  }
+  #schoolLocatorRight{
+    justify-self: right;
+    align-self: right;
   }
   .flex-container {
     display: flex;
@@ -104,24 +114,23 @@ html {
       flex-direction: column;
     }
   }
-  .row1{
-    display: block;
-    margin: auto;
-    text-align: center;
-    background-color: #f1cbca;
-  }
-  .row2{
+  .row{
     display: flex;
     flex-direction: row;
     background-color: #f1cbca;
-    margin: 0px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-style: outset none;
+    width: 80%;
   }
   .queue{
-    flex: 30%;
+    flex: 50%;
     background-color: #f1cbca;
+    line-height: normal;
   }
   @media screen and (max-width: 600px) {
-    .row2 {
+    .row {
       flex-direction: column;
     }
   }

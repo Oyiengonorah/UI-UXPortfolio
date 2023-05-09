@@ -68,12 +68,14 @@ html {
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 40px;
+    line-height: normal;
   }
   li{
     padding-top: 0px;
     padding-bottom: 20px;
     font-family: 'Poppins';
     font-size: 1em;
+    line-height: normal;
   }
   .thumbnail{
     width: 450px;
@@ -114,19 +116,29 @@ html {
       flex-direction: column;
     }
   }
+  section{
+    display: block;
+    background-color: white;
+  }
   .row{
     display: flex;
     flex-direction: row;
-    background-color: #f1cbca;
+    background-color: white;
     margin: auto;
     justify-content: center;
     align-items: center;
-    border-style: outset none;
-    width: 80%;
+    border-style: ridge none;
+    max-width: 50rem;
+  }
+  #second{
+    border-style: none none ridge none;
+  }
+  #third{
+    border-style: none none ridge none;
   }
   .queue{
     flex: 50%;
-    background-color: #f1cbca;
+    background-color: white;
     line-height: normal;
   }
   @media screen and (max-width: 600px) {
@@ -138,7 +150,7 @@ html {
     background-color: #f1cbca;
   }
   .content{
-    width: 75%;
+    max-width: 50rem;
     margin: auto;
     
   }
